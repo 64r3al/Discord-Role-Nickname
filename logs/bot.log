@@ -1,0 +1,737 @@
+2025-05-21 06:21:19 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:21:49 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 1/5). Retrying in 2 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d62cf0e16658e97f36e3b, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:21:51 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:22:22 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 2/5). Retrying in 4 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d62ef0e16658e97f36e3c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:22:26 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:22:44 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:23:14 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 1/5). Retrying in 2 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d63247207b0fc8634898c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:23:16 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:23:46 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 2/5). Retrying in 4 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d63447207b0fc8634898d, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:23:50 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:24:21 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 3/5). Retrying in 8 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d63667207b0fc8634898e, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:24:29 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:24:59 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 4/5). Retrying in 16 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d638d7207b0fc8634898f, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:25:15 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:25:46 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 5/5). Retrying in 32 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d63bb7207b0fc86348990, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:26:18 - bot.database - CRITICAL - [db_handler.py:51] - Failed to connect to MongoDB after 5 attempts
+2025-05-21 06:26:18 - bot - CRITICAL - [main.py:140] - Critical error: Failed to connect to MongoDB after 5 attempts
+Traceback (most recent call last):
+  File "d:\test scripts\Role save era test\main.py", line 130, in main
+    await db.connect()
+  File "d:\test scripts\Role save era test\database\db_handler.py", line 52, in connect
+    raise ConnectionFailure(f"Failed to connect to MongoDB after {max_retries} attempts")
+pymongo.errors.ConnectionFailure: Failed to connect to MongoDB after 5 attempts
+
+2025-05-21 06:26:18 - bot.database - INFO - [db_handler.py:58] - MongoDB connection closed
+2025-05-21 06:31:41 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:32:11 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 1/5). Retrying in 2 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d653daf2dff72c76995c3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:32:13 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:32:43 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 2/5). Retrying in 4 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d655daf2dff72c76995c4, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:32:47 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:33:18 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 3/5). Retrying in 8 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d657faf2dff72c76995c5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:33:26 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:33:56 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 4/5). Retrying in 16 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d65a6af2dff72c76995c6, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:34:12 - bot.database - INFO - [db_handler.py:28] - Connecting to MongoDB at mongodb://username:p...
+2025-05-21 06:34:42 - bot.database - WARNING - [db_handler.py:44] - MongoDB connection failed (attempt 5/5). Retrying in 32 seconds... Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 682d65d4af2dff72c76995c7, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-05-21 06:35:14 - bot.database - CRITICAL - [db_handler.py:51] - Failed to connect to MongoDB after 5 attempts
+2025-05-21 06:35:14 - bot - CRITICAL - [main.py:140] - Critical error: Failed to connect to MongoDB after 5 attempts
+Traceback (most recent call last):
+  File "d:\test scripts\Role save era test\main.py", line 130, in main
+    await db.connect()
+  File "d:\test scripts\Role save era test\database\db_handler.py", line 52, in connect
+    async def update_member(self, user_id, roles, nickname=None):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pymongo.errors.ConnectionFailure: Failed to connect to MongoDB after 5 attempts
+
+2025-05-21 06:35:14 - bot.database - INFO - [db_handler.py:58] - MongoDB connection closed
+2025-05-21 06:36:47 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 06:36:47 - bot - ERROR - [main.py:121] - Failed to load extensions: cannot import name 'member_events' from 'events' (unknown location)
+Traceback (most recent call last):
+  File "d:\test scripts\Role save era test\main.py", line 114, in load_extensions
+    from events import member_events
+ImportError: cannot import name 'member_events' from 'events' (unknown location)
+
+2025-05-21 06:36:47 - bot - CRITICAL - [main.py:140] - Critical error: cannot import name 'member_events' from 'events' (unknown location)
+Traceback (most recent call last):
+  File "d:\test scripts\Role save era test\main.py", line 133, in main
+    await load_extensions()
+  File "d:\test scripts\Role save era test\main.py", line 114, in load_extensions
+    from events import member_events
+ImportError: cannot import name 'member_events' from 'events' (unknown location)
+
+2025-05-21 06:36:47 - bot.database - INFO - [db_handler.py:50] - SQLite database connection closed
+2025-05-21 06:39:12 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 06:39:12 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 06:39:16 - bot - INFO - [main.py:52] - Weldi has connected to Discord!
+2025-05-21 06:39:16 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 06:39:16 - bot - INFO - [main.py:65] - Connected to guild: 🎀 🧁🩰🦢🕯 (id: 1332182233250795581)
+2025-05-21 06:39:17 - bot - INFO - [main.py:102] - Stored data for 3 members in 🎀 🧁🩰🦢🕯 (0 errors)
+2025-05-21 06:39:17 - bot - INFO - [main.py:65] - Connected to guild: test.dev (id: 1361847169644236990)
+2025-05-21 06:39:17 - bot - INFO - [main.py:102] - Stored data for 3 members in test.dev (0 errors)
+2025-05-21 06:39:18 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 06:39:18 - bot - INFO - [main.py:102] - Stored data for 2 members in test (0 errors)
+2025-05-21 06:39:57 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: test (1373932714947776524) | Status: Success | Details: User 951572556299796550
+2025-05-21 06:40:11 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: test (1373932714947776524) | Status: Success | Details: User 1185498279794983006
+2025-05-21 06:40:21 - bot.events - INFO - [member_events.py:63] - Member left: knightbboy (1185498279794983006)
+2025-05-21 06:40:37 - bot.events - INFO - [member_events.py:28] - Stored data for new member: knightbboy (1185498279794983006)
+2025-05-21 06:41:06 - bot.permissions - WARNING - [permission_checks.py:35] - User knightbboy (1185498279794983006) attempted to use admin command without permission
+2025-05-21 06:41:14 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:41:21 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /fetchall | User: knightbboy#0 (1185498279794983006) | Guild: test (1373932714947776524) | Status: Success | Details: Processed 2 members
+2025-05-21 06:41:30 - bot.events - INFO - [member_events.py:63] - Member left: knightbboy (1185498279794983006)
+2025-05-21 06:41:52 - bot.events - INFO - [member_events.py:28] - Stored data for new member: knightbboy (1185498279794983006)
+2025-05-21 06:42:19 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:42:42 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:42:47 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:43:15 - bot.events - INFO - [member_events.py:63] - Member left: knightbboy (1185498279794983006)
+2025-05-21 06:43:19 - bot.events - INFO - [member_events.py:28] - Stored data for new member: knightbboy (1185498279794983006)
+2025-05-21 06:43:47 - bot.permissions - WARNING - [permission_checks.py:35] - User knightbboy (1185498279794983006) attempted to use admin command without permission
+2025-05-21 06:43:51 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:44:07 - bot.database - WARNING - [db_handler.py:114] - Cleared database, removed 5 records
+2025-05-21 06:44:07 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /cleardb | User: knightbboy#0 (1185498279794983006) | Guild: test (1373932714947776524) | Status: Success | Details: Deleted 5 records
+2025-05-21 06:44:20 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /fetchall | User: knightbboy#0 (1185498279794983006) | Guild: test (1373932714947776524) | Status: Success | Details: Processed 2 members
+2025-05-21 06:46:16 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:46:19 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:46:34 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: test (1373932714947776524) | Status: Success | Details: User 1185498279794983006
+2025-05-21 06:46:43 - bot.events - INFO - [member_events.py:63] - Member left: knightbboy (1185498279794983006)
+2025-05-21 06:46:48 - bot.events - INFO - [member_events.py:28] - Stored data for new member: knightbboy (1185498279794983006)
+2025-05-21 06:46:59 - bot.events - INFO - [member_events.py:49] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:47:08 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /fetchall | User: 64r3al.#0 (951572556299796550) | Guild: test (1373932714947776524) | Status: Success | Details: Processed 2 members
+2025-05-21 06:48:29 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 06:48:29 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 06:48:32 - bot - INFO - [main.py:52] - Weldi has connected to Discord!
+2025-05-21 06:48:32 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 06:48:32 - bot - INFO - [main.py:65] - Connected to guild: 🎀 🧁🩰🦢🕯 (id: 1332182233250795581)
+2025-05-21 06:48:33 - bot - INFO - [main.py:102] - Stored data for 3 members in 🎀 🧁🩰🦢🕯 (0 errors)
+2025-05-21 06:48:33 - bot - INFO - [main.py:65] - Connected to guild: test.dev (id: 1361847169644236990)
+2025-05-21 06:48:33 - bot - INFO - [main.py:102] - Stored data for 3 members in test.dev (0 errors)
+2025-05-21 06:48:34 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 06:48:34 - bot - INFO - [main.py:102] - Stored data for 2 members in test (0 errors)
+2025-05-21 06:48:44 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:48:47 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:48:52 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: knightbboy (1185498279794983006)
+2025-05-21 06:48:59 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:49:00 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:49:00 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 06:49:00 - bot.events - INFO - [member_events.py:49] - Restored 3 roles to knightbboy (1185498279794983006)
+2025-05-21 06:49:00 - bot.events - INFO - [member_events.py:76] - Stored data for member: knightbboy (1185498279794983006)
+2025-05-21 06:52:05 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 06:52:05 - bot - ERROR - [main.py:123] - Failed to load extensions: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+Traceback (most recent call last):
+  File "D:\test scripts\Role save era test\main.py", line 115, in load_extensions
+    from commands.all_slash_commands import CommandsCog
+  File "D:\test scripts\Role save era test\commands\all_slash_commands.py", line 2, in <module>
+    from discord import app_commands
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\__init__.py", line 12, in <module>
+    from .commands import *
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 51, in <module>
+    from ..enums import AppCommandOptionType, AppCommandType, ChannelType, Locale
+ImportError: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+
+2025-05-21 06:52:05 - bot - CRITICAL - [main.py:142] - Critical error: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+Traceback (most recent call last):
+  File "D:\test scripts\Role save era test\main.py", line 135, in main
+    await load_extensions()
+  File "D:\test scripts\Role save era test\main.py", line 115, in load_extensions
+    from commands.all_slash_commands import CommandsCog
+  File "D:\test scripts\Role save era test\commands\all_slash_commands.py", line 2, in <module>
+    from discord import app_commands
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\__init__.py", line 12, in <module>
+    from .commands import *
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 51, in <module>
+    from ..enums import AppCommandOptionType, AppCommandType, ChannelType, Locale
+ImportError: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+
+2025-05-21 06:52:05 - bot.database - INFO - [db_handler.py:50] - SQLite database connection closed
+2025-05-21 06:52:53 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 06:52:53 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 06:52:57 - bot - INFO - [main.py:52] - Weldi has connected to Discord!
+2025-05-21 06:52:57 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 06:52:57 - bot - INFO - [main.py:65] - Connected to guild: 🎀 🧁🩰🦢🕯 (id: 1332182233250795581)
+2025-05-21 06:52:57 - bot - INFO - [main.py:102] - Stored data for 3 members in 🎀 🧁🩰🦢🕯 (0 errors)
+2025-05-21 06:52:58 - bot - INFO - [main.py:65] - Connected to guild: test.dev (id: 1361847169644236990)
+2025-05-21 06:52:58 - bot - INFO - [main.py:102] - Stored data for 3 members in test.dev (0 errors)
+2025-05-21 06:52:58 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 06:52:58 - bot - INFO - [main.py:102] - Stored data for 2 members in test (0 errors)
+2025-05-21 06:58:42 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 06:58:42 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 06:58:45 - bot - INFO - [main.py:52] - Weldi has connected to Discord!
+2025-05-21 06:58:45 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 06:58:45 - bot - INFO - [main.py:65] - Connected to guild: 🎀 🧁🩰🦢🕯 (id: 1332182233250795581)
+2025-05-21 06:58:46 - bot - INFO - [main.py:102] - Stored data for 3 members in 🎀 🧁🩰🦢🕯 (0 errors)
+2025-05-21 06:58:46 - bot - INFO - [main.py:65] - Connected to guild: test.dev (id: 1361847169644236990)
+2025-05-21 06:58:47 - bot - INFO - [main.py:102] - Stored data for 3 members in test.dev (0 errors)
+2025-05-21 06:58:47 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 06:58:47 - bot - INFO - [main.py:102] - Stored data for 2 members in test (0 errors)
+2025-05-21 07:04:29 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:04:29 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:04:32 - bot - INFO - [main.py:52] - Weldi has connected to Discord!
+2025-05-21 07:04:33 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:04:33 - bot - INFO - [main.py:65] - Connected to guild: 🎀 🧁🩰🦢🕯 (id: 1332182233250795581)
+2025-05-21 07:04:33 - bot - INFO - [main.py:102] - Stored data for 3 members in 🎀 🧁🩰🦢🕯 (0 errors)
+2025-05-21 07:04:34 - bot - INFO - [main.py:65] - Connected to guild: test.dev (id: 1361847169644236990)
+2025-05-21 07:04:34 - bot - INFO - [main.py:102] - Stored data for 3 members in test.dev (0 errors)
+2025-05-21 07:04:34 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 07:04:34 - bot - INFO - [main.py:102] - Stored data for 2 members in test (0 errors)
+2025-05-21 07:06:05 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:06:05 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:06:08 - bot - INFO - [main.py:52] - Weldi has connected to Discord!
+2025-05-21 07:06:09 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:06:09 - bot - INFO - [main.py:65] - Connected to guild: 🎀 🧁🩰🦢🕯 (id: 1332182233250795581)
+2025-05-21 07:06:09 - bot - INFO - [main.py:102] - Stored data for 3 members in 🎀 🧁🩰🦢🕯 (0 errors)
+2025-05-21 07:06:09 - bot - INFO - [main.py:65] - Connected to guild: test.dev (id: 1361847169644236990)
+2025-05-21 07:06:10 - bot - INFO - [main.py:102] - Stored data for 3 members in test.dev (0 errors)
+2025-05-21 07:06:10 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 07:06:10 - bot - INFO - [main.py:102] - Stored data for 2 members in test (0 errors)
+2025-05-21 07:12:46 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:12:46 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:12:50 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:12:50 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:12:50 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:14:19 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:14:19 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:14:23 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:14:23 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:14:23 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:15:18 - bot - INFO - [main.py:102] - Stored data for 4966 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 07:15:18 - bot.commands - ERROR - [all_slash_commands.py:319] - Command error: Command 'fetchall' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+Traceback (most recent call last):
+  File "d:\test scripts\Role save era test\.venv\Lib\site-packages\discord\app_commands\commands.py", line 857, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\test scripts\Role save era test\commands\all_slash_commands.py", line 52, in fetchall
+    await interaction.response.defer(ephemeral=True)
+  File "d:\test scripts\Role save era test\.venv\Lib\site-packages\discord\interactions.py", line 844, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\test scripts\Role save era test\.venv\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\test scripts\Role save era test\.venv\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "d:\test scripts\Role save era test\.venv\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\test scripts\Role save era test\.venv\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'fetchall' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+2025-05-21 07:17:38 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: 64r3al.#0 (951572556299796550) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1185498279794983006
+2025-05-21 07:18:24 - bot.events - INFO - [member_events.py:76] - Stored data for member: leyus12 (1208738787795144805)
+2025-05-21 07:18:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:18:45 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:18:49 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:18:57 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:19:07 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: leyus12 (1208738787795144805)
+2025-05-21 07:19:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:19:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:19:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:19:19 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:19:19 - bot.events - INFO - [member_events.py:49] - Restored 3 roles to leyus12 (1208738787795144805)
+2025-05-21 07:19:19 - bot.events - WARNING - [member_events.py:67] - Failed to restore some roles for leyus12 (1208738787795144805): Era PvP Member - higher than bot's role
+2025-05-21 07:19:19 - bot.events - INFO - [member_events.py:76] - Stored data for member: leyus12 (1208738787795144805)
+2025-05-21 07:22:44 - bot.database - WARNING - [db_handler.py:114] - Cleared database, removed 4969 records
+2025-05-21 07:22:44 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /cleardb | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: Deleted 4969 records
+2025-05-21 07:24:00 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /fetchall | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: Processed 4967 members
+2025-05-21 07:32:22 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 577922521957924865
+2025-05-21 07:33:08 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 07:49:15 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:49:15 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:49:18 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:49:18 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:49:18 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:50:16 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 07:51:19 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:51:19 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:51:22 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:51:22 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:51:22 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:53:16 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:53:16 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:53:19 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:53:20 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:53:20 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:53:57 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:53:57 - bot - INFO - [main.py:120] - Successfully loaded all extensions
+2025-05-21 07:54:00 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:54:01 - bot - INFO - [main.py:57] - Synced 5 command(s)
+2025-05-21 07:54:01 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:54:51 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:54:51 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 07:54:54 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:54:54 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 07:54:54 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:55:50 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 07:56:05 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:56:05 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 07:56:08 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:56:09 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 07:56:09 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 07:57:04 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 07:59:30 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 07:59:30 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 07:59:33 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 07:59:33 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 07:59:33 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 08:00:34 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 08:01:37 - bot.permissions - WARNING - [permission_checks.py:35] - User knightbboy (1185498279794983006) attempted to use admin command without permission
+2025-05-21 08:01:37 - bot.permissions - WARNING - [permission_checks.py:55] - User knightbboy (1185498279794983006) attempted to use manage roles command without permission
+2025-05-21 08:02:49 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 08:02:49 - bot.events - INFO - [member_events.py:59] - Restored nickname for leyus12 (1208738787795144805)
+2025-05-21 08:02:49 - bot.events - WARNING - [member_events.py:67] - Failed to restore some roles for leyus12 (1208738787795144805): Role 1371923235779641414 no longer exists, Role 1362443536494100743 no longer exists, Role 1339915426737426442 no longer exists, Role 1368232346414878781 no longer exists
+2025-05-21 08:02:49 - bot.events - INFO - [member_events.py:76] - Stored data for member: leyus12 (1208738787795144805)
+2025-05-21 08:04:09 - bot - ERROR - [temp.py:179] - Error handling temp role for leyus12: 'Member' object has no attribute 'add_role'
+2025-05-21 08:05:55 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 08:05:55 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 08:05:58 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 08:05:58 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 08:05:58 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 08:05:58 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 08:06:57 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 08:06:58 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 08:06:58 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 08:07:03 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 08:09:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 08:12:03 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 08:24:59 - bot.events - INFO - [member_events.py:98] - Updated data for member: nabiluru (577922521957924865)
+2025-05-21 08:29:59 - bot.events - INFO - [member_events.py:98] - Updated data for member: nabiluru (577922521957924865)
+2025-05-21 08:33:50 - bot.events - INFO - [member_events.py:98] - Updated data for member: 64r3al. (951572556299796550)
+2025-05-21 08:38:49 - bot.events - INFO - [member_events.py:98] - Updated data for member: 64r3al. (951572556299796550)
+2025-05-21 09:41:57 - bot.events - INFO - [member_events.py:98] - Updated data for member: unknown_xx77 (1163147313494106193)
+2025-05-21 10:07:34 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:07:34 - bot - ERROR - [main.py:125] - Failed to load extensions: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+Traceback (most recent call last):
+  File "D:\test scripts\Role save era test\main.py", line 115, in load_extensions
+    from commands.all_slash_commands import CommandsCog
+  File "D:\test scripts\Role save era test\commands\all_slash_commands.py", line 2, in <module>
+    from discord import app_commands
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\__init__.py", line 12, in <module>
+    from .commands import *
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 51, in <module>
+    from ..enums import AppCommandOptionType, AppCommandType, ChannelType, Locale
+ImportError: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+
+2025-05-21 10:07:34 - bot - CRITICAL - [main.py:144] - Critical error: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+Traceback (most recent call last):
+  File "D:\test scripts\Role save era test\main.py", line 137, in main
+    await load_extensions()
+  File "D:\test scripts\Role save era test\main.py", line 115, in load_extensions
+    from commands.all_slash_commands import CommandsCog
+  File "D:\test scripts\Role save era test\commands\all_slash_commands.py", line 2, in <module>
+    from discord import app_commands
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\__init__.py", line 12, in <module>
+    from .commands import *
+  File "C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\app_commands\commands.py", line 51, in <module>
+    from ..enums import AppCommandOptionType, AppCommandType, ChannelType, Locale
+ImportError: cannot import name 'AppCommandOptionType' from 'discord.enums' (C:\Users\hadjy\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\enums.py)
+
+2025-05-21 10:07:34 - bot.database - INFO - [db_handler.py:50] - SQLite database connection closed
+2025-05-21 10:07:53 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:07:53 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 10:07:57 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 10:07:58 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 10:07:58 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 10:07:58 - bot - ERROR - [main.py:47] - Failed to log to channel: 403 Forbidden (error code: 50001): Missing Access
+2025-05-21 10:13:05 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1185498279794983006
+2025-05-21 10:14:01 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:14:01 - bot - INFO - [main.py:116] - Loaded extension: admin.py
+2025-05-21 10:14:01 - bot - ERROR - [main.py:118] - Failed to load extension all_slash_commands.py: Extension 'commands.all_slash_commands' has no 'setup' function.
+2025-05-21 10:14:01 - bot - INFO - [main.py:116] - Loaded extension: temp.py
+2025-05-21 10:14:01 - bot - ERROR - [main.py:118] - Failed to load extension __init__.py: Extension 'commands.__init__' has no 'setup' function.
+2025-05-21 10:14:01 - bot - ERROR - [main.py:126] - Failed to load admin commands: Cog named 'Admin' already loaded
+2025-05-21 10:14:04 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 10:14:05 - bot - INFO - [main.py:57] - Synced 4 command(s)
+2025-05-21 10:14:05 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 10:14:05 - bot - ERROR - [main.py:47] - Failed to log to channel: 403 Forbidden (error code: 50001): Missing Access
+2025-05-21 10:14:15 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:14:15 - bot - INFO - [main.py:116] - Loaded extension: admin.py
+2025-05-21 10:14:15 - bot - ERROR - [main.py:118] - Failed to load extension all_slash_commands.py: Extension 'commands.all_slash_commands' has no 'setup' function.
+2025-05-21 10:14:15 - bot - INFO - [main.py:116] - Loaded extension: temp.py
+2025-05-21 10:14:15 - bot - ERROR - [main.py:118] - Failed to load extension __init__.py: Extension 'commands.__init__' has no 'setup' function.
+2025-05-21 10:14:15 - bot - ERROR - [main.py:126] - Failed to load admin commands: Cog named 'Admin' already loaded
+2025-05-21 10:14:18 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 10:15:14 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:15:14 - bot - INFO - [main.py:122] - Loaded extension: commands.admin
+2025-05-21 10:15:14 - bot - INFO - [main.py:122] - Loaded extension: commands.temp
+2025-05-21 10:15:14 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:15:14 - bot - INFO - [main.py:122] - Loaded extension: commands.all_slash_commands
+2025-05-21 10:15:18 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 10:15:18 - bot - INFO - [main.py:57] - Synced 9 command(s)
+2025-05-21 10:15:18 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 10:15:19 - bot - ERROR - [main.py:47] - Failed to log to channel: 403 Forbidden (error code: 50001): Missing Access
+2025-05-21 10:16:13 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 10:16:14 - bot - ERROR - [main.py:47] - Failed to log to channel: 403 Forbidden (error code: 50001): Missing Access
+2025-05-21 10:16:14 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 10:16:14 - bot - ERROR - [main.py:47] - Failed to log to channel: 403 Forbidden (error code: 50001): Missing Access
+2025-05-21 10:16:14 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 10:16:14 - bot - ERROR - [main.py:47] - Failed to log to channel: 403 Forbidden (error code: 50001): Missing Access
+2025-05-21 10:17:55 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:17:55 - bot - INFO - [main.py:122] - Loaded extension: commands.admin
+2025-05-21 10:17:55 - bot - INFO - [main.py:122] - Loaded extension: commands.temp
+2025-05-21 10:17:55 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:17:55 - bot - INFO - [main.py:122] - Loaded extension: commands.all_slash_commands
+2025-05-21 10:17:59 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 10:17:59 - bot - INFO - [main.py:57] - Synced 9 command(s)
+2025-05-21 10:17:59 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 10:18:54 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 10:18:55 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 10:18:55 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 10:21:00 - bot - INFO - [admin_roles.py:73] - Created Super Admin role in Era PvP | FreeRoam
+2025-05-21 10:21:01 - bot - INFO - [admin_roles.py:73] - Created Admin role in Era PvP | FreeRoam
+2025-05-21 10:21:01 - bot - INFO - [admin_roles.py:73] - Created Moderator role in Era PvP | FreeRoam
+2025-05-21 10:26:34 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 10:26:34 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 10:26:37 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 10:26:38 - bot - INFO - [main.py:57] - Synced 7 command(s)
+2025-05-21 10:26:38 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 10:27:34 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 10:27:35 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 10:27:36 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 10:29:43 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1185498279794983006
+2025-05-21 10:45:58 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: unknown_xx77 (1163147313494106193)
+2025-05-21 10:52:07 - bot.events - INFO - [member_events.py:76] - Stored data for member: sifou_dl9 (705420567733469254)
+2025-05-21 10:52:07 - bot.events - INFO - [member_events.py:98] - Updated data for member: sifou_dl9 (705420567733469254)
+2025-05-21 11:01:44 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 11:01:50 - bot - INFO - [main.py:54] - Logged in as Powered by ERA (1374629681474830346)
+2025-05-21 11:01:50 - bot - INFO - [main.py:55] - ------
+2025-05-21 11:04:11 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 11:04:11 - bot - INFO - [admin_roles.py:30] - Admin roles database initialized successfully
+2025-05-21 11:04:14 - bot - INFO - [main.py:54] - Logged in as Powered by ERA (1374629681474830346)
+2025-05-21 11:04:14 - bot - INFO - [main.py:55] - ------
+2025-05-21 11:04:14 - bot - INFO - [admin_roles.py:30] - Admin roles database initialized successfully
+2025-05-21 11:06:03 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 11:06:03 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 11:06:06 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 11:06:07 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 11:06:07 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 11:07:02 - bot - INFO - [main.py:102] - Stored data for 4967 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 11:07:02 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 11:07:03 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 11:07:35 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1185498279794983006
+2025-05-21 11:19:26 - bot.events - INFO - [member_events.py:76] - Stored data for member: .smailaissaoui. (1098723436769054790)
+2025-05-21 11:19:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: .smailaissaoui. (1098723436769054790)
+2025-05-21 11:24:18 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 11:24:18 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 11:24:21 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 11:24:22 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 11:24:22 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 11:25:19 - bot - INFO - [main.py:102] - Stored data for 4968 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 11:25:19 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 11:25:19 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 11:25:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 11:25:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 11:25:35 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1185498279794983006
+2025-05-21 11:26:43 - bot.events - INFO - [member_events.py:98] - Updated data for member: 64r3al. (951572556299796550)
+2025-05-21 11:26:46 - bot.events - INFO - [member_events.py:98] - Updated data for member: 64r3al. (951572556299796550)
+2025-05-21 11:27:06 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1185498279794983006
+2025-05-21 11:27:16 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1187471764805140670
+2025-05-21 11:28:21 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: 64r3al.#0 (951572556299796550) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1187471764805140670
+2025-05-21 11:28:36 - bot.events - INFO - [member_events.py:98] - Updated data for member: 64r3al. (951572556299796550)
+2025-05-21 11:28:45 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: 64r3al.#0 (951572556299796550) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1187471764805140670
+2025-05-21 11:34:42 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 11:36:14 - bot.events - INFO - [member_events.py:98] - Updated data for member: tkzzz_x (1187471764805140670)
+2025-05-21 11:36:27 - bot.events - INFO - [member_events.py:76] - Stored data for member: i5_id (1267969009924702299)
+2025-05-21 11:36:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: i5_id (1267969009924702299)
+2025-05-21 11:37:47 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /viewdata | User: tkzzz_x#0 (1187471764805140670) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: User 1005304171131584533
+2025-05-21 11:38:17 - bot.events - INFO - [member_events.py:98] - Updated data for member: tkzzz_x (1187471764805140670)
+2025-05-21 11:48:05 - bot.events - INFO - [member_events.py:76] - Stored data for member: oskar_52134 (1354542580246909151)
+2025-05-21 11:48:05 - bot.events - INFO - [member_events.py:98] - Updated data for member: oskar_52134 (1354542580246909151)
+2025-05-21 11:55:34 - bot.events - INFO - [member_events.py:98] - Updated data for member: mohwahrani31 (1079165012012171366)
+2025-05-21 11:55:38 - bot.events - INFO - [member_events.py:98] - Updated data for member: mohwahrani31 (1079165012012171366)
+2025-05-21 11:56:26 - bot.events - INFO - [member_events.py:98] - Updated data for member: ivaan.xx (1357323634393219073)
+2025-05-21 11:56:30 - bot.events - INFO - [member_events.py:98] - Updated data for member: ivaan.xx (1357323634393219073)
+2025-05-21 12:03:39 - bot.events - INFO - [member_events.py:98] - Updated data for member: unknown_xx77 (1163147313494106193)
+2025-05-21 12:03:40 - bot.events - INFO - [member_events.py:98] - Updated data for member: unknown_xx77 (1163147313494106193)
+2025-05-21 12:03:40 - bot.events - INFO - [member_events.py:49] - Restored 2 roles to unknown_xx77 (1163147313494106193)
+2025-05-21 12:03:40 - bot.events - INFO - [member_events.py:76] - Stored data for member: unknown_xx77 (1163147313494106193)
+2025-05-21 12:04:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: __44_chamso_44_ (1243649375566303263)
+2025-05-21 12:06:10 - bot.events - INFO - [member_events.py:98] - Updated data for member: __44_chamso_44_ (1243649375566303263)
+2025-05-21 12:06:12 - bot.events - INFO - [member_events.py:98] - Updated data for member: __44_chamso_44_ (1243649375566303263)
+2025-05-21 12:06:13 - bot.events - INFO - [member_events.py:98] - Updated data for member: __44_chamso_44_ (1243649375566303263)
+2025-05-21 12:06:32 - bot.events - INFO - [member_events.py:98] - Updated data for member: __44_chamso_44_ (1243649375566303263)
+2025-05-21 12:06:33 - bot.events - INFO - [member_events.py:98] - Updated data for member: __44_chamso_44_ (1243649375566303263)
+2025-05-21 12:11:36 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: zaqqzikuou (1070348214382891050)
+2025-05-21 12:11:38 - bot.events - INFO - [member_events.py:98] - Updated data for member: zaqqzikuou (1070348214382891050)
+2025-05-21 12:11:38 - bot.events - INFO - [member_events.py:98] - Updated data for member: zaqqzikuou (1070348214382891050)
+2025-05-21 12:11:38 - bot.events - INFO - [member_events.py:49] - Restored 1 roles to zaqqzikuou (1070348214382891050)
+2025-05-21 12:11:38 - bot.events - INFO - [member_events.py:76] - Stored data for member: zaqqzikuou (1070348214382891050)
+2025-05-21 12:14:41 - bot.events - INFO - [member_events.py:98] - Updated data for member: unknown_xx77 (1163147313494106193)
+2025-05-21 12:14:44 - bot.events - INFO - [member_events.py:98] - Updated data for member: unknown_xx77 (1163147313494106193)
+2025-05-21 12:27:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: ivaan.xx (1357323634393219073)
+2025-05-21 12:27:14 - bot.events - INFO - [member_events.py:98] - Updated data for member: ivaan.xx (1357323634393219073)
+2025-05-21 12:38:19 - bot.events - INFO - [member_events.py:76] - Stored data for member: ekanm (784088891980251156)
+2025-05-21 12:38:19 - bot.events - INFO - [member_events.py:98] - Updated data for member: ekanm (784088891980251156)
+2025-05-21 12:38:30 - bot.events - INFO - [member_events.py:76] - Stored data for member: lexon_mvp (1226243668168413257)
+2025-05-21 12:38:31 - bot.events - INFO - [member_events.py:98] - Updated data for member: lexon_mvp (1226243668168413257)
+2025-05-21 12:39:54 - bot.events - INFO - [member_events.py:76] - Stored data for member: sprtch123 (1374506152422936637)
+2025-05-21 12:39:54 - bot.events - INFO - [member_events.py:98] - Updated data for member: sprtch123 (1374506152422936637)
+2025-05-21 12:54:37 - bot.events - INFO - [member_events.py:76] - Stored data for member: le.r0078_97574 (1342177832918450216)
+2025-05-21 12:54:38 - bot.events - INFO - [member_events.py:98] - Updated data for member: le.r0078_97574 (1342177832918450216)
+2025-05-21 13:08:45 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: ilyaslimane2634 (1094684798599049326)
+2025-05-21 13:17:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: ivaan.xx (1357323634393219073)
+2025-05-21 14:02:03 - bot.events - INFO - [member_events.py:98] - Updated data for member: luux_yacine (1035656991063953439)
+2025-05-21 14:03:26 - bot.events - INFO - [member_events.py:98] - Updated data for member: dollarrrrrrrr (1079874720612220948)
+2025-05-21 14:04:30 - bot.events - INFO - [member_events.py:98] - Updated data for member: ziyanaby35 (863030578671910943)
+2025-05-21 14:04:34 - bot.events - INFO - [member_events.py:98] - Updated data for member: ziyanaby35 (863030578671910943)
+2025-05-21 14:13:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: ziyanaby35 (863030578671910943)
+2025-05-21 14:21:16 - bot.events - INFO - [member_events.py:98] - Updated data for member: ziyanaby35 (863030578671910943)
+2025-05-21 14:21:20 - bot.events - INFO - [member_events.py:98] - Updated data for member: ziyanaby35 (863030578671910943)
+2025-05-21 14:23:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: adxfpss (1154915599978336286)
+2025-05-21 14:34:00 - bot.events - INFO - [member_events.py:98] - Updated data for member: zakiisba (1257230140560244739)
+2025-05-21 14:34:06 - bot.events - INFO - [member_events.py:98] - Updated data for member: zakiisba (1257230140560244739)
+2025-05-21 14:35:36 - bot.events - INFO - [member_events.py:76] - Stored data for member: gizuuu. (841709061938216970)
+2025-05-21 14:35:36 - bot.events - INFO - [member_events.py:98] - Updated data for member: gizuuu. (841709061938216970)
+2025-05-21 15:02:29 - bot.events - INFO - [member_events.py:98] - Updated data for member: waflu.mvp (670713431099441172)
+2025-05-21 15:03:01 - bot.events - INFO - [member_events.py:98] - Updated data for member: a.b31tlz (1344083392022581380)
+2025-05-21 15:17:17 - bot.events - INFO - [member_events.py:98] - Updated data for member: 90k_magi (1295832374625435699)
+2025-05-21 15:19:47 - bot.events - INFO - [member_events.py:98] - Updated data for member: 90k_magi (1295832374625435699)
+2025-05-21 15:34:08 - bot.events - INFO - [member_events.py:98] - Updated data for member: flox_l2r2 (1237911462316343366)
+2025-05-21 15:34:10 - bot.events - INFO - [member_events.py:98] - Updated data for member: flox_l2r2 (1237911462316343366)
+2025-05-21 15:38:27 - bot.events - INFO - [member_events.py:76] - Stored data for member: soleckibanknot (918867226906492958)
+2025-05-21 15:38:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: soleckibanknot (918867226906492958)
+2025-05-21 15:39:04 - bot.events - INFO - [member_events.py:98] - Updated data for member: amine3131ad_58897 (1327289594839830623)
+2025-05-21 15:47:34 - bot.events - INFO - [member_events.py:76] - Stored data for member: fcb.agno (840232032315113502)
+2025-05-21 15:47:34 - bot.events - INFO - [member_events.py:98] - Updated data for member: fcb.agno (840232032315113502)
+2025-05-21 15:49:40 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: fcb.agno (840232032315113502)
+2025-05-21 15:50:39 - bot.events - INFO - [member_events.py:98] - Updated data for member: b.i.g0142 (1294120251780235294)
+2025-05-21 16:03:15 - bot.events - INFO - [member_events.py:98] - Updated data for member: bika_16_23 (1259943856150155381)
+2025-05-21 16:03:23 - bot.events - INFO - [member_events.py:76] - Stored data for member: 1.finmx (1360243675094847632)
+2025-05-21 16:03:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: 1.finmx (1360243675094847632)
+2025-05-21 16:06:42 - bot.events - INFO - [member_events.py:76] - Stored data for member: hrhhf0094 (1241453143783374859)
+2025-05-21 16:06:43 - bot.events - INFO - [member_events.py:98] - Updated data for member: hrhhf0094 (1241453143783374859)
+2025-05-21 16:16:25 - bot.events - INFO - [member_events.py:98] - Updated data for member: soleckibanknot (918867226906492958)
+2025-05-21 16:26:47 - bot.events - INFO - [member_events.py:98] - Updated data for member: flox_l2r2 (1237911462316343366)
+2025-05-21 16:26:48 - bot.events - INFO - [member_events.py:98] - Updated data for member: flox_l2r2 (1237911462316343366)
+2025-05-21 16:27:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: oussama070003 (1207349895518888029)
+2025-05-21 16:27:29 - bot.events - INFO - [member_events.py:98] - Updated data for member: oussama070003 (1207349895518888029)
+2025-05-21 16:28:31 - bot.events - INFO - [member_events.py:98] - Updated data for member: natekgz (985917532651257950)
+2025-05-21 16:31:01 - bot.events - INFO - [member_events.py:98] - Updated data for member: oussama070003 (1207349895518888029)
+2025-05-21 16:31:02 - bot.events - INFO - [member_events.py:98] - Updated data for member: oussama070003 (1207349895518888029)
+2025-05-21 16:31:05 - bot.events - INFO - [member_events.py:98] - Updated data for member: oussama070003 (1207349895518888029)
+2025-05-21 16:31:16 - bot.events - INFO - [member_events.py:98] - Updated data for member: flox_l2r2 (1237911462316343366)
+2025-05-21 16:32:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: flox_l2r2 (1237911462316343366)
+2025-05-21 16:35:21 - bot.events - INFO - [member_events.py:76] - Stored data for member: abdnour0216 (1373632926998069279)
+2025-05-21 16:35:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: abdnour0216 (1373632926998069279)
+2025-05-21 16:36:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: luux.kal (1076920657843077220)
+2025-05-21 16:37:09 - bot.events - INFO - [member_events.py:76] - Stored data for member: mohamed_merabet (1042444079277023343)
+2025-05-21 16:37:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: mohamed_merabet (1042444079277023343)
+2025-05-21 16:37:32 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: soleckibanknot (918867226906492958)
+2025-05-21 16:38:46 - bot.events - INFO - [member_events.py:98] - Updated data for member: luux.kal (1076920657843077220)
+2025-05-21 16:39:10 - bot.events - INFO - [member_events.py:98] - Updated data for member: fake0932 (1191877675535585312)
+2025-05-21 16:51:31 - bot.events - INFO - [member_events.py:76] - Stored data for member: mohamedbence (1148293318803996775)
+2025-05-21 16:51:31 - bot.events - INFO - [member_events.py:98] - Updated data for member: mohamedbence (1148293318803996775)
+2025-05-21 16:55:21 - bot.events - INFO - [member_events.py:76] - Stored data for member: dagi_kaw (841001877737963540)
+2025-05-21 16:55:21 - bot.events - INFO - [member_events.py:98] - Updated data for member: dagi_kaw (841001877737963540)
+2025-05-21 16:55:50 - bot.events - INFO - [member_events.py:76] - Stored data for member: obida.df_20294 (1350486550013546579)
+2025-05-21 16:55:51 - bot.events - INFO - [member_events.py:98] - Updated data for member: obida.df_20294 (1350486550013546579)
+2025-05-21 17:03:07 - bot.events - INFO - [member_events.py:98] - Updated data for member: ivaan.xx (1357323634393219073)
+2025-05-21 17:06:11 - bot.events - INFO - [member_events.py:76] - Stored data for member: amxr213 (1314400509293236285)
+2025-05-21 17:06:11 - bot.events - INFO - [member_events.py:98] - Updated data for member: amxr213 (1314400509293236285)
+2025-05-21 17:22:55 - bot.events - INFO - [member_events.py:98] - Updated data for member: rayen_bnm24 (506846079363448843)
+2025-05-21 22:40:14 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 22:40:14 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 22:40:17 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 22:40:18 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 22:40:18 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 22:41:14 - bot - INFO - [main.py:102] - Stored data for 4985 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 22:41:14 - bot.events - INFO - [member_events.py:76] - Stored data for member: adaeecz. (1189660633701036204)
+2025-05-21 22:41:14 - bot.events - INFO - [member_events.py:98] - Updated data for member: adaeecz. (1189660633701036204)
+2025-05-21 22:41:15 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 22:41:15 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 22:41:19 - bot.events - INFO - [member_events.py:76] - Stored data for member: cam1luss (967478455316914216)
+2025-05-21 22:41:20 - bot.events - INFO - [member_events.py:98] - Updated data for member: cam1luss (967478455316914216)
+2025-05-21 22:43:19 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-21 22:43:19 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-21 22:43:23 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-21 22:43:24 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-21 22:43:24 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-21 22:44:22 - bot - INFO - [main.py:102] - Stored data for 4988 members in Era PvP | FreeRoam (0 errors)
+2025-05-21 22:44:22 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-21 22:44:23 - bot.events - INFO - [member_events.py:76] - Stored data for member: radwan.1254_35774 (1136279035505287219)
+2025-05-21 22:44:23 - bot.events - INFO - [member_events.py:98] - Updated data for member: radwan.1254_35774 (1136279035505287219)
+2025-05-21 22:44:23 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-21 22:45:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: the._19 (430406104443256842)
+2025-05-21 22:45:12 - bot.events - INFO - [member_events.py:98] - Updated data for member: the._19 (430406104443256842)
+2025-05-21 22:45:13 - bot.events - INFO - [member_events.py:98] - Updated data for member: the._19 (430406104443256842)
+2025-05-21 22:45:48 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: odeviously (479227712007831552)
+2025-05-21 22:46:13 - bot.database - WARNING - [db_handler.py:114] - Cleared database, removed 5003 records
+2025-05-21 22:46:14 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /cleardb | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: Deleted 5003 records
+2025-05-21 22:47:21 - bot.commands - INFO - [all_slash_commands.py:33] - Command: /fetchall | User: knightbboy#0 (1185498279794983006) | Guild: Era PvP | FreeRoam (1284582787520790582) | Status: Success | Details: Processed 4988 members
+2025-05-21 22:47:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: the._19 (430406104443256842)
+2025-05-21 22:47:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: the._19 (430406104443256842)
+2025-05-21 22:48:00 - bot.events - INFO - [member_events.py:98] - Updated data for member: bika_16_23 (1259943856150155381)
+2025-05-21 22:48:03 - bot.events - INFO - [member_events.py:98] - Updated data for member: bika_16_23 (1259943856150155381)
+2025-05-21 22:48:04 - bot.events - INFO - [member_events.py:98] - Updated data for member: bika_16_23 (1259943856150155381)
+2025-05-21 22:48:26 - bot.events - INFO - [member_events.py:76] - Stored data for member: forzen__ (919196176941727765)
+2025-05-21 22:48:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: forzen__ (919196176941727765)
+2025-05-21 22:48:35 - bot.events - INFO - [member_events.py:98] - Updated data for member: gmmmmmmmmmmm (576956497746198551)
+2025-05-21 22:48:35 - bot - WARNING - [temp.py:160] - Could not send DM to gmmmmmmmmmmm - DMs are closed
+2025-05-21 22:49:58 - bot.events - INFO - [member_events.py:98] - Updated data for member: moha_hd16 (777806235377336320)
+2025-05-21 22:51:13 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:51:45 - bot.events - INFO - [member_events.py:98] - Updated data for member: aksilll_ (1288234338634301592)
+2025-05-21 22:51:46 - bot - WARNING - [temp.py:160] - Could not send DM to aksilll_ - DMs are closed
+2025-05-21 22:52:34 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: leyus12 (1208738787795144805)
+2025-05-21 22:53:34 - bot.events - INFO - [member_events.py:98] - Updated data for member: gmmmmmmmmmmm (576956497746198551)
+2025-05-21 22:53:34 - bot - WARNING - [temp.py:184] - Could not send DM to gmmmmmmmmmmm - DMs are closed
+2025-05-21 22:54:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:23 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:24 - bot.events - INFO - [member_events.py:49] - Restored 5 roles to leyus12 (1208738787795144805)
+2025-05-21 22:54:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:24 - bot.events - INFO - [member_events.py:59] - Restored nickname for leyus12 (1208738787795144805)
+2025-05-21 22:54:24 - bot.events - INFO - [member_events.py:76] - Stored data for member: leyus12 (1208738787795144805)
+2025-05-21 22:54:41 - bot.events - INFO - [member_events.py:76] - Stored data for member: tchitchi39 (1374865040686972938)
+2025-05-21 22:54:41 - bot.events - INFO - [member_events.py:98] - Updated data for member: tchitchi39 (1374865040686972938)
+2025-05-21 22:56:12 - bot.events - INFO - [member_events.py:98] - Updated data for member: leyus12 (1208738787795144805)
+2025-05-21 22:56:44 - bot.events - INFO - [member_events.py:98] - Updated data for member: aksilll_ (1288234338634301592)
+2025-05-21 22:56:44 - bot - WARNING - [temp.py:184] - Could not send DM to aksilll_ - DMs are closed
+2025-05-21 22:58:26 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 22:59:21 - bot.events - INFO - [member_events.py:98] - Updated data for member: samyy.16 (930443537378590720)
+2025-05-21 23:01:26 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:01:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:01:39 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:01:45 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:01:46 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:01:49 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:02:01 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:02:11 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:02:37 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:02:42 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-21 23:03:10 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: tchitchi39 (1374865040686972938)
+2025-05-21 23:06:05 - bot.events - INFO - [member_events.py:98] - Updated data for member: tchitchi39 (1374865040686972938)
+2025-05-21 23:06:05 - bot.events - INFO - [member_events.py:49] - Restored 1 roles to tchitchi39 (1374865040686972938)
+2025-05-21 23:06:05 - bot.events - INFO - [member_events.py:76] - Stored data for member: tchitchi39 (1374865040686972938)
+2025-05-21 23:09:37 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: tchitchi39 (1374865040686972938)
+2025-05-21 23:12:38 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:16:52 - bot.events - INFO - [member_events.py:76] - Stored data for member: vxisionn (748467539469664320)
+2025-05-21 23:16:52 - bot.events - INFO - [member_events.py:98] - Updated data for member: vxisionn (748467539469664320)
+2025-05-21 23:17:23 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: frank20247 (1212469786680758362)
+2025-05-21 23:17:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: mrnaczos (791125621199601664)
+2025-05-21 23:18:13 - bot.events - INFO - [member_events.py:98] - Updated data for member: .dz.dz (1125378084376420443)
+2025-05-21 23:18:14 - bot.events - INFO - [member_events.py:98] - Updated data for member: .dz.dz (1125378084376420443)
+2025-05-21 23:19:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:20:44 - bot.events - INFO - [member_events.py:98] - Updated data for member: mrnaczos (791125621199601664)
+2025-05-21 23:21:24 - bot.events - INFO - [member_events.py:98] - Updated data for member: mohwahrani31 (1079165012012171366)
+2025-05-21 23:25:03 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:26:41 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:28:06 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:29:15 - bot.events - INFO - [member_events.py:98] - Updated data for member: dmrui (1107743755794129086)
+2025-05-21 23:30:26 - bot.events - INFO - [member_events.py:98] - Updated data for member: mr.dimitrii. (811603584282132480)
+2025-05-21 23:38:39 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: .dz.dz (1125378084376420443)
+2025-05-21 23:41:42 - bot.events - INFO - [member_events.py:76] - Stored data for member: marekpepsitoniemessi (709795547137179778)
+2025-05-21 23:41:42 - bot.events - INFO - [member_events.py:98] - Updated data for member: marekpepsitoniemessi (709795547137179778)
+2025-05-21 23:50:54 - bot.events - INFO - [member_events.py:76] - Stored data for member: ahm_doos70 (1211024770116624437)
+2025-05-21 23:50:54 - bot.events - INFO - [member_events.py:98] - Updated data for member: ahm_doos70 (1211024770116624437)
+2025-05-21 23:56:09 - bot.events - INFO - [member_events.py:76] - Stored data for member: nouv01 (944593201694666863)
+2025-05-21 23:56:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: nouv01 (944593201694666863)
+2025-05-22 00:00:06 - bot.events - INFO - [member_events.py:76] - Stored data for member: brouli4567 (1371518016675643513)
+2025-05-22 00:00:06 - bot.events - INFO - [member_events.py:98] - Updated data for member: brouli4567 (1371518016675643513)
+2025-05-22 00:38:47 - bot.events - INFO - [member_events.py:76] - Stored data for member: corbeau2507 (1051573559413178488)
+2025-05-22 00:38:47 - bot.events - INFO - [member_events.py:98] - Updated data for member: corbeau2507 (1051573559413178488)
+2025-05-22 00:51:05 - bot.events - INFO - [member_events.py:98] - Updated data for member: lsb.moi (1203086104375599155)
+2025-05-22 00:51:07 - bot.events - INFO - [member_events.py:98] - Updated data for member: lsb.moi (1203086104375599155)
+2025-05-22 00:54:55 - bot.events - INFO - [member_events.py:98] - Updated data for member: lsb.moi (1203086104375599155)
+2025-05-22 00:55:03 - bot.events - INFO - [member_events.py:98] - Updated data for member: lsb.moi (1203086104375599155)
+2025-05-22 01:15:39 - bot.events - INFO - [member_events.py:98] - Updated data for member: lbouuma (592025757920919754)
+2025-05-22 01:16:20 - bot.events - INFO - [member_events.py:98] - Updated data for member: lbouuma (592025757920919754)
+2025-05-22 01:26:18 - bot.events - INFO - [member_events.py:76] - Stored data for member: noureddine_hm (1086709085258383561)
+2025-05-22 01:26:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: noureddine_hm (1086709085258383561)
+2025-05-22 01:42:02 - bot.events - INFO - [member_events.py:98] - Updated data for member: lbouuma (592025757920919754)
+2025-05-22 01:42:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: lbouuma (592025757920919754)
+2025-05-22 01:42:11 - bot.events - INFO - [member_events.py:98] - Updated data for member: lbouuma (592025757920919754)
+2025-05-22 01:50:06 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: fozmxv (1021316837906063372)
+2025-05-22 03:00:09 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 03:03:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: salvatore_lo.piccolo (958411051215487066)
+2025-05-22 03:03:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: salvatore_lo.piccolo (958411051215487066)
+2025-05-22 03:04:28 - bot.events - INFO - [member_events.py:76] - Stored data for member: jason4444333 (1354246563769221262)
+2025-05-22 03:04:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: jason4444333 (1354246563769221262)
+2025-05-22 03:05:04 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 03:05:06 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 03:05:11 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 03:05:15 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 03:05:34 - bot.events - INFO - [member_events.py:98] - Updated data for member: oscarbtw (488312983580049418)
+2025-05-22 03:16:47 - bot.events - INFO - [member_events.py:76] - Stored data for member: neverbethesame21 (901916428737851483)
+2025-05-22 03:16:47 - bot.events - INFO - [member_events.py:98] - Updated data for member: neverbethesame21 (901916428737851483)
+2025-05-22 03:34:49 - bot.events - INFO - [member_events.py:98] - Updated data for member: zeus_ouv (865708143552102440)
+2025-05-22 03:43:01 - bot.events - INFO - [member_events.py:98] - Updated data for member: 1saadd (1146212723894517812)
+2025-05-22 03:48:00 - bot.events - INFO - [member_events.py:98] - Updated data for member: 1saadd (1146212723894517812)
+2025-05-22 04:05:15 - bot.events - INFO - [member_events.py:76] - Stored data for member: 7amosaaa (1257008470029373542)
+2025-05-22 04:05:15 - bot.events - INFO - [member_events.py:98] - Updated data for member: 7amosaaa (1257008470029373542)
+2025-05-22 04:07:03 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: diix.8 (1319410914826522625)
+2025-05-22 04:25:16 - bot.events - INFO - [member_events.py:98] - Updated data for member: x_pa_n_io_x (1093368620786126950)
+2025-05-22 04:31:28 - bot.events - INFO - [member_events.py:98] - Updated data for member: hasbulla.hushetskiy. (1070463151902052362)
+2025-05-22 04:33:05 - bot.events - INFO - [member_events.py:98] - Updated data for member: hasbulla.hushetskiy. (1070463151902052362)
+2025-05-22 04:33:18 - bot.events - INFO - [member_events.py:98] - Updated data for member: hasbulla.hushetskiy. (1070463151902052362)
+2025-05-22 04:51:32 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: knightbboy (1185498279794983006)
+2025-05-22 04:51:42 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-22 04:51:43 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-22 04:51:43 - bot.events - INFO - [member_events.py:49] - Restored 1 roles to knightbboy (1185498279794983006)
+2025-05-22 04:51:43 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-22 04:51:43 - bot.events - INFO - [member_events.py:59] - Restored nickname for knightbboy (1185498279794983006)
+2025-05-22 04:51:43 - bot.events - WARNING - [member_events.py:67] - Failed to restore some roles for knightbboy (1185498279794983006): Management - higher than bot's role
+2025-05-22 04:51:43 - bot.events - INFO - [member_events.py:76] - Stored data for member: knightbboy (1185498279794983006)
+2025-05-22 04:53:22 - bot.events - INFO - [member_events.py:98] - Updated data for member: knightbboy (1185498279794983006)
+2025-05-22 05:03:14 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 05:03:14 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 05:03:19 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 05:03:20 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 05:03:20 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 05:04:17 - bot - INFO - [main.py:102] - Stored data for 4995 members in Era PvP | FreeRoam (0 errors)
+2025-05-22 05:04:18 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-22 05:04:19 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-22 05:04:27 - bot.events - INFO - [member_events.py:98] - Updated data for member: 1focus777 (751823825749934100)
+2025-05-22 05:11:53 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 06:02:51 - bot.events - INFO - [member_events.py:98] - Updated data for member: zippatrola (1363564200277839974)
+2025-05-22 07:01:51 - bot.events - INFO - [member_events.py:116] - Stored data for leaving member: xx_xp. (1094685766174638130)
+2025-05-22 07:02:38 - bot.events - INFO - [member_events.py:76] - Stored data for member: ayoubzerzour_31103 (1371625618147381340)
+2025-05-22 07:02:38 - bot.events - INFO - [member_events.py:98] - Updated data for member: ayoubzerzour_31103 (1371625618147381340)
+2025-05-22 08:54:33 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 08:54:33 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 08:54:37 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 08:54:38 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 08:54:38 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 08:58:23 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 08:58:23 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 08:58:27 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 08:58:28 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 08:58:28 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 08:59:26 - bot - INFO - [main.py:102] - Stored data for 4995 members in Era PvP | FreeRoam (0 errors)
+2025-05-22 08:59:26 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-22 08:59:27 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-22 08:59:53 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 08:59:53 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 08:59:58 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 08:59:58 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 08:59:58 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 09:00:56 - bot - INFO - [main.py:102] - Stored data for 4995 members in Era PvP | FreeRoam (0 errors)
+2025-05-22 09:00:57 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-22 09:00:57 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-22 09:06:27 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 09:06:27 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 09:06:31 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 09:06:31 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 09:06:31 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 09:07:42 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 09:07:42 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 09:07:46 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 09:07:46 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 09:07:46 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 09:16:09 - bot.database - INFO - [db_handler.py:39] - Connected to SQLite database successfully!
+2025-05-22 09:16:09 - bot - INFO - [main.py:122] - Successfully loaded all extensions
+2025-05-22 09:16:13 - bot - INFO - [main.py:52] - Powered by ERA has connected to Discord!
+2025-05-22 09:16:13 - bot - INFO - [main.py:57] - Synced 6 command(s)
+2025-05-22 09:16:13 - bot - INFO - [main.py:65] - Connected to guild: Era PvP | FreeRoam (id: 1284582787520790582)
+2025-05-22 09:17:10 - bot - INFO - [main.py:102] - Stored data for 4995 members in Era PvP | FreeRoam (0 errors)
+2025-05-22 09:17:11 - bot - INFO - [main.py:65] - Connected to guild: test (id: 1373932714947776524)
+2025-05-22 09:17:11 - bot - INFO - [main.py:102] - Stored data for 3 members in test (0 errors)
+2025-05-22 09:46:31 - bot.events - INFO - [member_events.py:76] - Stored data for member: q.9.q (1262553451485986919)
+2025-05-22 09:46:31 - bot.events - INFO - [member_events.py:98] - Updated data for member: q.9.q (1262553451485986919)
+2025-05-22 09:50:30 - bot.events - INFO - [member_events.py:76] - Stored data for member: m7trf68 (1369329052627894312)
+2025-05-22 09:50:30 - bot.events - INFO - [member_events.py:98] - Updated data for member: m7trf68 (1369329052627894312)
+2025-05-22 10:16:59 - bot.events - INFO - [member_events.py:98] - Updated data for member: xbvnks (1278396745155608657)
+2025-05-22 10:21:32 - bot.events - INFO - [member_events.py:98] - Updated data for member: kaztifps (1338682816258510945)
